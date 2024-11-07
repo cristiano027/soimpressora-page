@@ -192,11 +192,9 @@ iframe {
   }
 
   .services-list {
-    div {
-      width: 41.8rem;
-      margin-right: 90px;
-    }
+    height: 24.5rem;
   }
+
 }
 
 @media (prefers-color-scheme: dark) {
