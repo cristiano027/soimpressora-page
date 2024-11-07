@@ -163,7 +163,6 @@ iframe {
   .form-types {
     width: 100%;
   }
-
 }
 
 @media (max-width: 63rem) {
@@ -190,6 +189,13 @@ iframe {
 
   #name-input {
     width: 42.5rem;
+  }
+
+  .services-list {
+    div {
+      width: 41.8rem;
+      margin-right: 90px;
+    }
   }
 }
 
