@@ -46,3 +46,9 @@ p {
 .btn:hover {
   background-color: #007e83;
 }
+
+@media (prefers-color-scheme: dark) {
+  p {
+    color: white;
+  }
+}
