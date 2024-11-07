@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Só Impressora</title>
+  <link rel="stylesheet" href="/styles/index.css">
+  <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Khand:wght@300;400;500;600;700&family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+
+      <div class="nav-container">
+      <nav class="navbar">
+        <a id="logo" href="#main"><img src="assets/images/logo.png" alt="Só Impressora"></a>
+        <div class="mobile-menu">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+
+        
+        <ul class="nav-list">
+          <li><a href="#service-t">Serviços</a></li>
+          <li><a href="#contacts">Contato</a></li>
+          <li><a href="#location">Localização</a></li>
+        </ul>
+      </nav>
+      </div>
+      
+        <main id="main">
+          <p>SEU EQUIPAMENTO MERECE O MELHOR CUIDADO.</p>
+          <h1><span>SOLICITE</span> ASSISTÊNCIA TÉCNICA!</h1>
+    
+          <div>
+            <a href="#services">SAIBA MAIS</a>
+          </div>
+        </main>
+
+    </header>
+
+    <div id="info" class="info">
+
+      <div class="info-list">
+        <div id="clock" class="imgs"></div>
+        <h3>HORÁRIOS</h3>
+        <p>
+          SEGUNDA Á <span>SEXTA</span> <br>
+          08:00 ás <span>11:30</span> <br>
+          12:30 ás <span>17:00</span>
+        </p>
+      </div>
+
+      <div class="divider"></div>
+
+      <div class="info-list">
+        <div id="home" class="imgs"></div>
+        <h3>ENDEREÇO</h3>
+        <p>R. Maria Zuleica, 25 <br> Ribeira - Viana, <span>ES</span> <br>
+          <span>29.132-702</span></p>
+      </div>
+
+      <div class="divider"></div>
+
+      <div class="info-list">
+        <div id="phone" class="imgs"></div>
+        <h3>CONTATO</h3>
+        <p>+55 (27) 999425215 <br> +55 (27) 995316943 <br> +55 (27) 998990281</p>
+      </div>
+
+    </div>
+
+    <div id="service-t" class="title">
+    <h3>SERVIÇOS</h3>
+  </div>
+
+    <section id="services">
+      
+      <div id="service" class="grid">
+
+      <div id="v" class="services-list">
+        <div>
+        <h2>VENDA DE IMPRESSORAS</h2>
+        <p>Oferecemos equipamentos novos e seminovos, que atendem às necessidades da sua empresa. Trabalhamos com as marcas mais renomadas do mercado, garantindo produtos de qualidade, condições de pagamento acessíveis, além de suporte para instalação e capacitação.</p>
+      </div>
+      </div>
+
+      <div id="l" class="services-list">
+      <div>
+        <h2>LOCAÇÃO DE IMPRESSORAS</h2>
+        <p>Oferecemos equipamentos novos e seminovos, que atendem às necessidades da sua empresa. Trabalhamos com as marcas mais renomadas do mercado, garantindo produtos de qualidade, condições de pagamento acessíveis, além de suporte para instalação e capacitação.</p>
+      </div>
+      </div>
+
+      <div id="t" class="services-list">
+        <div>
+        <h2>TONER E PEÇAS</h2>
+        <p>Oferecemos todos as peças essenciais para o funcionamento de impressoras e multifuncionais, como toner, revelador e cilindro. Trabalhamos com produtos originais e de alta qualidade, das melhores marcas do mercado.</p>
+      </div>
+      </div>
+
+      <div id="a" class="services-list">
+        <div>
+        <h2>ASSISTÊNCIA TÉCNICA</h2>
+        <p>Realizamos manutenção e reparo de impressoras a laser das principais marcas. Contamos com uma equipe especializada que garante reposição de peças e um atendimento rápido e eficiente, garantindo o funcionamento ideal dos seus equipamentos.</p>
+      </div>
+      </div>
+
+    </div>
+
+    </section>
+
+    <div id="contacts" class="title">
+      <h3>CONTATO</h3>
+    </div>
+    
+    <div class="contact-div">
+
+    <section id="contact">
+
+        <form action="https://formsubmit.co/regina@soimpressora.com.br" method="POST">
+          
+          <div id="inputs-a" class="inputs"> 
+            <input id="name-input" class="form-types" type="text" name="name" placeholder="Nome">
+            <input id="email-input" class="form-types" type="email" name="email" placeholder="E-mail" >
+            <input id="assunto-input" class="form-types" type="text" name="assunto" placeholder="Assunto" >
+          </div>
+          
+          <textarea id="text-input" cols="30" rows="10" name="massage" 
+          placeholder="Digite sua mensagem" ></textarea>
+          
+          <input type="hidden" name="_next" value="http://127.0.0.1:5501/thanks.html#thank">
+          <button type="submit">ENVIAR</button>
+          
+          <input type="hidden" name="_subject" value="Suporte SÓ IMPRESSORA">
+          <input type="text" name="_honey" style="display:none">
+          <input type="hidden" name="_captcha" value="false">
+        </form>
+      </section>
+    </div>
+
+    <div id="location" >
+      <iframe
+       src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d413.46281928992806!2d-40.46014353952187!3d-20.380682224735033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1730562024030!5m2!1spt-BR!2sbr"
+        width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <footer id="footer">
+
+
+      <div class="final-page">
+      <div id="list-img2" class="img-list">
+        <img id="brother" class="marca" src="assets/images/brother.png">
+        <img id="lexmark" class="marca"src="assets/images/lexmark.png">
+        <img id="epson" class="marca" src="assets/icons/epson-1.svg">
+        <img id="hp" class="marca" src="assets/images/hp.png">
+        <img id="samsung" class="marca" src="assets/images/samsung.png">
+        <img id="kyocera" class="marca" src="assets/images/kyocera.png">
+      </div>
+
+
+      <div id="directs" class="direitos-reservados">
+        <p>© 2001 - 2024 | Só Impressora - CNPJ 13.667.419/0001-43 - Viana - Espírito Santo <br> Todos os direitos reservados</p>
+      </div>
+    </div>
+
+    </footer>
+
+    <script src="mobile-navbar.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

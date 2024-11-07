@@ -1,0 +1,135 @@
+#services {
+  display: grid;
+  grid-auto-flow: row;
+  justify-content: center;
+  
+
+  .services-list {
+    width: 47.8rem;
+    height: 24.5rem;
+    background-color: #FFFF;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 1.2rem;
+
+    div {
+      padding: 4.2rem 0rem 5rem 2.7rem;
+    }
+  }
+
+  #service {
+    display: grid;
+   
+    justify-content: center;
+    align-content: center;
+    gap: 3rem;
+
+    
+    #v {
+      grid-area: "v";
+    }
+
+    #l {
+      grid-area: "l";
+    }
+    #t {
+      grid-area: "t";
+    }
+
+    #a {
+      grid-area: "a";
+    }
+  }
+
+
+  h2 {
+    font: var(--title-m);
+    font-size: 1.8rem;
+    color: #01a6ac;
+    letter-spacing: 0.09rem;
+  }
+
+  p {
+    font: var(--text-s);
+    color: #7B7B7B;
+    padding-top: 3rem;
+  }
+}
+
+.contact-div {
+  justify-content: center;
+  display: flex;
+}
+
+#contact {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: center;
+  grid-template-rows: auto 1fr;
+  scroll-margin-top: 2rem;
+  padding-inline: 3rem;
+
+  form {
+    display: grid;
+    gap: 1rem;
+  }
+  
+  input, textarea, button {
+    border: 0.2rem solid #bebebe86;
+    border-radius: 0.7rem;
+    font-size: 1.8rem;
+    outline: none;
+    padding: 1.5rem;
+
+  }
+
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    font: var(--text-form);
+    color: #7c7c7c;
+    margin-bottom: 0.8rem;
+  }
+
+  .inputs {
+    gap: 3.3rem;
+  }
+
+  input::placeholder{
+    font: var(--text-form);
+    color: #bebebe;
+  }
+
+  textarea {
+    height: 20rem;
+  }
+
+  textarea::placeholder {
+    font: var(--text-form);
+    color: #bebebe;
+  }
+
+  textarea:focus {
+    border: 0.2rem solid #bebebe;
+  }
+  
+  input:focus {
+    border: 0.2rem solid #bebebe;
+  }
+
+  button {
+    margin-bottom: 2.8rem;
+    font-family: var(--font);
+    display: grid;
+    color: #ffffff;
+    cursor: pointer;
+    width: 100%; /* 14.2rem */
+    height: 4.5rem; /* 4rem */
+    background-color: #01aca4;
+    transition: 0.2s;
+    border: none;
+  }
+
+  button:hover {
+    background-color: #02948d;
+  }
+}

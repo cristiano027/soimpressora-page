@@ -1,0 +1,52 @@
+footer {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-auto-flow: column;
+  background-color: #ffffffd0;
+  justify-content: center;
+}
+
+#epson {
+  width: 9rem;
+  height: 2.5rem;
+  position: relative;
+  bottom: 0.34rem; /* Move a imagem 8 pixels para baixo */
+}
+
+.img-list {
+  padding-left: 2rem;
+  align-content: center;
+  padding-top: 1.3rem;
+}
+
+.direitos-reservados {
+  font: var(--text-m);
+  text-align: center;
+  align-self: center;
+  color: #454545;
+  padding: 3rem;
+}
+
+.marca {
+  padding-right: 2.8rem;
+}
+
+#brother {
+  position: relative;
+  bottom: 0.55rem;
+}
+
+#samsung {
+  position: relative;
+  bottom: 0.45rem; /* Move a imagem 8 pixels para baixo */
+}
+
+#kyocera {
+  position: relative;
+  top: 0.15rem; /* Move a imagem 8 pixels para baixo */
+}
+
+#hp {
+  position: relative;
+}

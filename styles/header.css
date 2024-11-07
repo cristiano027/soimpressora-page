@@ -1,0 +1,57 @@
+header {
+  background: url(/assets/images/background-impressora.png) no-repeat center center;
+  background-size: cover;
+  height: 63.2rem;
+  width: 100%;
+}
+
+main {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  padding-top: 20.2rem;
+  text-align: center;
+
+  div {
+    display: grid;
+    width: 15rem;
+    height: 4rem;
+    background-color: #FFFFFF;
+    border-radius: 0.8rem;
+    margin-top: 5.2rem;
+    margin-inline: auto;
+    justify-items: center;
+    align-items: center;
+
+    &:hover {
+      background-color: #e6e5e5;
+    }
+
+    a {
+      font: var(--title-sm);
+      color: #01a6ac;
+      text-decoration: none;
+      transition: 0.25s;
+      padding-right: 0.25rem;
+
+      &:hover {
+        color: #076669;
+      }
+    }
+  }
+
+  p{
+    font: var(--subtitle);
+    color: rgba(255, 255, 255, 0.993);
+    justify-self: center;
+  }
+
+  h1 {
+    font: var(--h1);
+    color: white;
+  
+    span {
+      color: #01a6ac;
+    }
+  }
+}
